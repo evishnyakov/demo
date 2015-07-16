@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_W3Mh0Ct4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_W3NI6Ct4EeWlFdOtV-CTyQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_W3NI4Ct4EeWlFdOtV-CTyQ" label="com.skittrans.product" width="900" height="700">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_W3NI_yt4EeWlFdOtV-CTyQ">
+      <children xsi:type="advanced:Perspective" xmi:id="_W3NJACt4EeWlFdOtV-CTyQ">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_W3NJASt4EeWlFdOtV-CTyQ" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_W3NJAit4EeWlFdOtV-CTyQ">
+            <persistedState key="container data" value="70"/>
+            <children xsi:type="basic:Part" xmi:id="_W3NJAyt4EeWlFdOtV-CTyQ" contributionURI="bundleclass://com.skittrans.product/com.skittrans.product.parts.ArticleComponentPart" label="Article Component Part"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_CtfKsCv-EeWSKfQKDVYEOA" elementId="">
+            <persistedState key="container data" value="30"/>
+            <children xsi:type="basic:Part" xmi:id="_HqWtUCv-EeWSKfQKDVYEOA" elementId="" contributionURI="bundleclass://com.skittrans.product/com.skittrans.product.parts.StatisticComponentPart" label="Staistic Part"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_W3NI-Ct4EeWlFdOtV-CTyQ" elementId="menu:org.eclipse.ui.main.menu"/>
+    <trimBars xmi:id="_W3NJBCt4EeWlFdOtV-CTyQ">
+      <children xsi:type="menu:ToolBar" xmi:id="_W3NJBSt4EeWlFdOtV-CTyQ" elementId="toolbar:org.eclipse.ui.main.toolbar"/>
+    </trimBars>
+  </children>
+  <bindingTables xmi:id="_W3NI7St4EeWlFdOtV-CTyQ" bindingContext="_W3NI6Ct4EeWlFdOtV-CTyQ"/>
+  <rootContext xmi:id="_W3NI6Ct4EeWlFdOtV-CTyQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_W3NI6St4EeWlFdOtV-CTyQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_W3NI6it4EeWlFdOtV-CTyQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_W3NI4St4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_W3NI4it4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_W3NI4yt4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_W3NI5Ct4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_W3NI5St4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_W3NI5it4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_W3NI5yt4EeWlFdOtV-CTyQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

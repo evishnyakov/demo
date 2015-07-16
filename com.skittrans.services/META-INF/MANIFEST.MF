@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Services
+Bundle-SymbolicName: com.skittrans.services
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.skittrans.services.Activator
+Bundle-Vendor: SKITTRANS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.skittrans.services,
+ com.skittrans.services.impl
